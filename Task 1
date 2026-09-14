@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+  int scholarship;
+  int marks , familyincome;
+  scholarship = 0;   // shows scholarship is false means no scholarship or 1 shows true yes
+  printf("Enter Marks you got");
+  scanf("%d",&marks);
+  printf("Enter Family Income Please");
+  scanf("%d",&familyincome);
+  if(marks >= 80 || familyincome < 50000){
+    scholarship = 1;}
+  else{
+       scholarship = 0;}
+  printf("You got scholarship 1 is yes and 0 is no =  %d",scholarship);
+
+}
